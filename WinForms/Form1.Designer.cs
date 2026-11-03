@@ -107,11 +107,11 @@ partial class Form1
         mainLayoutPanel.Margin = new Padding(0);
         mainLayoutPanel.Name = "mainLayoutPanel";
         mainLayoutPanel.RowCount = 5;
-        mainLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 60F));
-        mainLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 74F));
-        mainLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 304F));
-        mainLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 48F));
-        mainLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 88F));
+        mainLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 56F));
+        mainLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 70F));
+        mainLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 336F));
+        mainLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 42F));
+        mainLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 70F));
         mainLayoutPanel.Size = new Size(860, 598);
         mainLayoutPanel.TabIndex = 0;
         // 
@@ -222,7 +222,7 @@ partial class Form1
         optionsGroupBox.Margin = new Padding(10, 0, 10, 6);
         optionsGroupBox.Name = "optionsGroupBox";
         optionsGroupBox.Padding = new Padding(10, 6, 10, 8);
-        optionsGroupBox.Size = new Size(840, 292);
+        optionsGroupBox.Size = new Size(840, 324);
         optionsGroupBox.TabIndex = 2;
         optionsGroupBox.TabStop = false;
         optionsGroupBox.Text = "Compression Options";
@@ -493,11 +493,11 @@ partial class Form1
         resultGroupBox.Dock = DockStyle.Fill;
         resultGroupBox.Font = new Font("Segoe UI", 9.5F, FontStyle.Bold, GraphicsUnit.Point);
         resultGroupBox.ForeColor = Color.FromArgb(32, 39, 52);
-        resultGroupBox.Location = new Point(10, 486);
+        resultGroupBox.Location = new Point(10, 510);
         resultGroupBox.Margin = new Padding(10, 0, 10, 10);
         resultGroupBox.Name = "resultGroupBox";
         resultGroupBox.Padding = new Padding(10, 6, 10, 8);
-        resultGroupBox.Size = new Size(840, 78);
+        resultGroupBox.Size = new Size(840, 70);
         resultGroupBox.TabIndex = 4;
         resultGroupBox.TabStop = false;
         resultGroupBox.Text = "Result";
